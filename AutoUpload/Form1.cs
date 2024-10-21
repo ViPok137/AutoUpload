@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AutoUpload;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,17 @@ namespace AutoUpload
         public Form1()
         {
             InitializeComponent();
+            if (Properties.Settings.Default.IsCheckBoxChecked)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
+        }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 dlg = new Form2();
+            dlg.Show(this);
         }
     }
 }
