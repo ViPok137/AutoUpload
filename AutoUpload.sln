@@ -8,11 +8,14 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Kreate|Any CPU = Kreate|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8C72365E-AD86-4831-9533-28D135E77719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8C72365E-AD86-4831-9533-28D135E77719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C72365E-AD86-4831-9533-28D135E77719}.Kreate|Any CPU.ActiveCfg = Kreate|Any CPU
+		{8C72365E-AD86-4831-9533-28D135E77719}.Kreate|Any CPU.Build.0 = Kreate|Any CPU
 		{8C72365E-AD86-4831-9533-28D135E77719}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C72365E-AD86-4831-9533-28D135E77719}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection

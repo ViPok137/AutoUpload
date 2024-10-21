@@ -26,12 +26,12 @@ namespace AutoUpload.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool IsCheckBoxChecked {
+        public bool Apload {
             get {
-                return ((bool)(this["IsCheckBoxChecked"]));
+                return ((bool)(this["Apload"]));
             }
             set {
-                this["IsCheckBoxChecked"] = value;
+                this["Apload"] = value;
             }
         }
     }
